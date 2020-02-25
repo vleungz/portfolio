@@ -1,0 +1,448 @@
+html,body{
+  width:100%;
+  margin 0px;
+  padding:0px;
+  overflow-x:hidden;
+}
+
+body {
+  font-family: 'Dosis';
+  /*padding-top: 10em;*/
+  color: #1a4d74;
+}
+
+/*nav bar styling*/
+#mainNav{
+  font-size:1.5rem;
+  font-weight: 250;
+}
+
+#mainNav .nav-link{
+  color:#90c0d5;
+}
+
+#mainNav .nav-link:hover{
+  color:#1a4d74;
+}
+
+#mainNav .navbar-brand{
+  color: #1a4d74;
+  font-size:1.6rem;
+}
+
+.navbar-brand {
+  position: relative;
+  background: url(/images/logo.png);
+  width: 130px;
+  height:70px;
+  right: 40px;
+  background-size: contain;
+}
+
+.navbar.scrolled{
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: background 500ms;
+}
+
+/*footer styling*/
+.icons{
+  color:white;
+  font-size: 16px;
+}
+
+.footer{
+  background-color:#1a4d74;
+  color:white;
+}
+
+.footer h2{
+  font-weight: 300;
+  font-size:26px;
+}
+
+.footer p{
+  font-weight: 300;
+  font-size:16px;
+}
+
+.reach-me-form{
+  padding: 0 15px;
+}
+
+.button{
+  border-radius: 300px;
+  padding: .6em 1.5em;
+  text-align: center;
+}
+
+hr{
+  background-color:rgba(255, 255, 255, 0.53);
+}
+
+.mail{
+  color:white;
+  font-weight: 300;
+  font-size:15px;
+}
+
+.mail:hover{
+  color:#90c0d5;
+}
+
+.icons:hover{
+  color:#90c0d5;
+}
+
+/*landing style*/
+
+.flexbox{
+  height: 100vh;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-content:center;
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.typewriter h1{
+  position: relative;
+  text-align: center;
+  border-right: 2px solid #90c0d5; /* The typwriter cursor */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  white-space: nowrap; /* Keeps the content on a single line */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  transform: translateY(-50%);
+}
+
+.typewriter #name{
+  margin: 10px 0;
+}
+
+.typewriter #job{
+  font-size: 20px;
+}
+
+.typewriter h1:nth-child(1) {
+  width: 6.8em;
+  -webkit-animation: type 2.5s steps(30, end), blink .5s step-end infinite normal;
+  animation: type 3s steps(40) 1s 1 normal both, blink .5s steps(40) infinite normal;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.typewriter h1:nth-child(2) {
+  width: 9.4em;
+  opacity: 0;
+  -webkit-animation: type2 3s steps(40, end), blink .5s steps(40) infinite normal;
+  animation: type2 3s steps(40) 1s 1 normal both, blink .5s steps(40) infinite normal;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: 2px solid #90c0d5;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from{border-right-color: #90c0d5;}
+  to{border-right-color: transparent;}
+}
+
+/*about styles*/
+
+.about-blurb p{
+  font-size:18px;
+  font-weight: 400;
+}
+
+#reveal1 {
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+#reveal1.visible {
+  opacity: 1;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+
+/*skills styles*/
+.skills{
+  width:100%;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  background-image: linear-gradient(to right, #90c0d5, #1a4d74);
+  z-index: 1;
+}
+
+.flexItem{
+  display:flex;
+}
+
+.wrapper{
+  width:70%;
+  height:100%;
+  max-width:1600px;
+  margin: 0 auto;
+}
+
+div{
+  display:block;
+}
+
+.skills h2{
+  text-align:center;
+  margin:50px 0 10px 0;
+  color:white;
+}
+
+.iconContainer{
+  width:100%;
+  height:100%;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .iconContainer {
+    margin-bottom: 50px;
+  }
+}
+
+.iconContainer .iconContainerIcon{
+  font-size:4rem;
+  text-align:center;
+}
+
+@media (max-width: 900px) {
+  .iconContainer .iconContainerIcon {
+    padding: 0;
+    font-size: 3rem;
+  }
+}
+
+.iconContainerIcon {
+  width: calc(100% / 6);
+  padding: 35px 0;
+  color: white;
+  transition: 0.7s;
+}
+
+@media (max-width:900px){
+  .iconContainerIcon{
+    width: calc(100%/3);
+    padding-top:20px;
+  }
+}
+
+.iconContainerIcon:hover {
+  color: black;
+}
+
+.iconContainer p{
+  width:100%;
+  text-align:center;
+  font-size:1.5rem;
+}
+
+@media (max-width: 525px) {
+  .iconContainer p {
+    font-size: 0.7rem;
+    line-height: 1;
+  }
+}
+
+/*portfolio styles*/
+
+.project p{
+  font-size:15px;
+  font-weight: 400;
+}
+
+.project h2 {
+  font-size: 25px;
+}
+.flex-projects{
+  display:flex;
+  width:100%;
+  height:100%;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.flexItem2{
+  padding: 0 10px;
+}
+
+.flex-projects a{
+  color:#1a4d74;
+  border-bottom: 1px solid #1a4d74;
+}
+
+.flex-projects a:hover{
+  color:#90c0d5;
+  border-bottom: none;
+}
+
+.flex-projects p{
+  margin-bottom: 0;
+}
+
+#reveal2 {
+  opacity: 0;
+  -webkit-transform: translateX(-40px);
+  -moz-transform: translateX(-40px);
+  -ms-transform: translateX(-40px);
+  -o-transform: translateX(-40px);
+  transform: translateX(-40px);
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+#reveal2.visible {
+  opacity: 1;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+#reveal2-2 {
+  opacity: 0;
+  -webkit-transform: translateX(-40px);
+  -moz-transform: translateX(-40px);
+  -ms-transform: translateX(-40px);
+  -o-transform: translateX(-40px);
+  transform: translateX(-40px);
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+#reveal2-2.visible {
+  opacity: 1;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+#reveal3 {
+  opacity: 0;
+  -webkit-transform: rotate(40deg) scale(0.5);
+  -moz-transform: rotate(40deg) scale(0.5);
+  -ms-transform: rotate(40deg) scale(0.5);
+  -o-transform: rotate(40deg) scale(0.5);
+  transform: rotate(40deg) scale(0.5);
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+#reveal3.visible {
+  opacity: 1;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+/*yoga img styles*/
+
+#yoga-img{
+  background-image:url("/images/yoga.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width:100%;
+  height:500px;
+  overflow:hidden;
+}
+
+@media (hover: none) {
+  #yoga-img {
+    background-attachment: initial;
+  }
+}
+
+/*personal styles*/
+.personal p{
+  font-size:17px;
+}
+
+.flex{
+  display:flex;
+  width:100%;
+  height:100%;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.flexItem3{
+  padding: 0 10px;
+}
+
+.flex a{
+  color:#1a4d74;
+  border-bottom: 1px solid #1a4d74;
+}
+
+.flex a:hover{
+  color:#90c0d5;
+  border-bottom: none;
+}

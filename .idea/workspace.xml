@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5de1e7df-6d76-40c5-bd64-b94fbbfba184" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YD0p9XUGtUpz3uSx5vfTXIqcKT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/CV" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5de1e7df-6d76-40c5-bd64-b94fbbfba184" name="Default Changelist" comment="" />
+      <created>1582462037670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582462037670</updated>
+      <workItem from="1582462040508" duration="46485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1163" height="135" key="GridCell.Tab.0.bottom" timestamp="1582602793473">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1163" height="135" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1582602793473" />
+    <state width="1163" height="135" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1582601657373" />
+    <state width="1085" height="135" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1582558689757" />
+    <state width="1163" height="135" key="GridCell.Tab.0.center" timestamp="1582602793470">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1163" height="135" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1582602793470" />
+    <state width="1163" height="135" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1582601657368" />
+    <state width="1085" height="135" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1582558689749" />
+    <state width="1163" height="135" key="GridCell.Tab.0.left" timestamp="1582602793464">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1163" height="135" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1582602793464" />
+    <state width="1163" height="135" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1582601657339" />
+    <state width="1085" height="135" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1582558689713" />
+    <state width="1163" height="135" key="GridCell.Tab.0.right" timestamp="1582602793471">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1163" height="135" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1582602793471" />
+    <state width="1163" height="135" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1582601657369" />
+    <state width="1085" height="135" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1582558689750" />
+  </component>
+</project>
