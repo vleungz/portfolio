@@ -5,16 +5,16 @@
             <p class="lead mb-4">drop me a message if you're interested to get in touch or collaborate.</p>
         </div>
     </div>
-    <form class="row justify-content-center mb-4">
+    <form class="row justify-content-center mb-4" action="/submit-form" method="POST">
         <div class="reach-me-form">
             <label>Name:</label>
-            <input type="text" class="form-control" aria-describedby="name" placeholder="name">
+            <input type="text" class="form-control" aria-describedby="name" name="name" placeholder="name">
             <label class="pt-2">Email:</label>
-            <input type="email" class="form-control" aria-describedby="email" placeholder="email address">
+            <input type="email" class="form-control" aria-describedby="email" name="email" placeholder="email address">
             <label class="pt-2">Message:</label>
-            <textarea type="text" class="form-control" aria-describedby="message" placeholder="message"></textarea>
+            <textarea type="text" class="form-control" aria-describedby="message" name="message" placeholder="message"></textarea>
             <div class="button">
-                <button type="button" class="button btn btn-light btn-sm mt-3">Submit</button>
+                <button type="submit" class="button btn btn-light btn-sm mt-3">Submit</button>
             </div>
         </div>
     </form>

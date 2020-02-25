@@ -1,13 +1,36 @@
+require('dotenv').config({path: __dirname + '/.env'});
+
 var createError = require('http-errors');
 var express = require('express');
+var app = express();
+var bodyParser = require('body-parser');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var mongodb=require('mongodb');
+var mongoose = require("mongoose");
+var Contact = require("./models/contact");
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-var app = express();
+//mongo setup
+mongoose.set('useUnifiedTopology', true);
+mongoose.set('useFindAndModify',false);
+
+//mongoose.connect("mongodb://localhost/portfolio", {useNewUrlParser:true});
+var url = process.env.DATABASEURL || "mongodb://localhost/portfolio";
+mongoose.connect(url, {
+  useNewUrlParser: true,
+  useCreateIndex: true
+}).then(() => {
+  console.log("Connected to DB");
+}).catch(err => {
+  console.log('Error:', err.message);
+});
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
