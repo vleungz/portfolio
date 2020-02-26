@@ -19,7 +19,7 @@ router.post("/submit-form", function(req,res){
     if(err){
       console.log(err);
     }else{
-      res.redirect("/#contact");
+      res.redirect("/");
     }
   })
 });

@@ -1,3 +1,4 @@
+//navbar
 $(function(){
     $(document).scroll(function(){
         var $nav = $("#mainNav");
@@ -5,6 +6,11 @@ $(function(){
     });
 });
 
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
+//scroll
 var controller = new ScrollMagic.Controller();
 
 var scene = new ScrollMagic.Scene({
